@@ -1,0 +1,26 @@
+Git Notes: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+Version Control System (VCS)
+ - Distributed version Control
+ - Coordinates work between multiple developers
+ - Who made what changes and when
+ - Revert back at any time
+ - Local and remote repos
+ - You will have usually have a local repository on your machine, which you will then "push" to a remote repsoitory like GitHub
+
+Concepts of Git
+ - Keeps track of code history 
+ - Takes "snapshots" of your files
+ - You decide when to take a snapshot by making a "commit"
+ - You can vist any snnapshot at any time
+ - You can stage files before committing
+ - once you make a commit to a remote repsoitory other developers can pull that information to their machines
+
+Basic Commands
+  - git init //initialize local git repository 
+  - git add <file> //Add File(s) To Index
+  - git status //Check Status of Working Tree
+  - git commit //Commit Changes In index when you are ready and put into local repository
+  - git push //Push to remote repository
+  - git pull //Pull latest from remote repository
+  - git clone //Clone repository into a new directory
